@@ -9,7 +9,7 @@
 }
 
 body {
-    font-family: sans-serif;
+    font-family: monospace;
 }
 
 /*Navigatie*/
@@ -23,7 +23,7 @@ ul {
     list-style-type: none;
     display: flex;
     justify-content: space-evenly;
-    background-image: linear-gradient(to right, rgb(255, 124, 240),rgb(255, 169, 222));
+    background-color: rgb(255, 169, 222);
     border-top: solid rgb(30, 30, 30) 4px;
 }
 nav li {
@@ -136,4 +136,44 @@ main {
     color: white;
     font-family: 'Lucida Sans';
     margin-bottom: 100px;
+}
+
+/*Pagina 2*/
+.h2over {
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+    text-shadow: black 1px 1px 1px;
+}
+.duurzaamdiv {
+    display: flex;
+    justify-content: center;
+}
+.duurzaam {
+    height: 150px;
+    margin: 20px 20px;
+    width: auto;
+    border-radius: 10px;
+}
+.p2over p {
+    text-align: center;
+    margin: 0px 50px;
+    color: white;
+}
+
+.h3verpakking {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+    color: white;
+    text-shadow: black 1px 1px 1px;
+}
+
+.verpakking p {
+    text-align: center;
+    margin: 20px 50px;
+    color: white;
+}
+.verpakking {
+    padding-bottom: 5em;
 }
