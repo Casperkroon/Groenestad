@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0px 0px;
+}
+header p {
+    text-align: center;
+    margin-bottom: 30px;
+}
+header {
+    background-color: rgb(255, 255, 255);
+}
+
+main {
+    background-image: linear-gradient(#e5b8dc,#b7a8f6);
+    background-repeat: no-repeat;
+}
+
+.topbar {
+    display: flex;
+    justify-content: center;
+    background-color: darkslategray;
+}
+.topbarlogo {
+    height: 50px;
+    padding: 5px;
+    width: auto;
+}
+
+.headerbar {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.mainlogo {
+    height: 200px;
+    width: auto;
+}
+
+.shopfront {
+    height: 280px;
+    width: auto;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+.shopfrontdiv {
+    display: flex;
+    justify-content: center;
+}
+
+.pijlomlaag {
+    height: 50px;
+    width: auto;
+    margin: 20px 0px 40px;
+}
+
+.lijndiv {
+    max-width: 100%;
+}
+
+.beschrijving {
+    text-align: center;
+    margin: 0px 1em;
+}
+
+.beschrijving h2 {
+    margin: 10px;
+}
+.italic {
+    font-style: italic;
+}
