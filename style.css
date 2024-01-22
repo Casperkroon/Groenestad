@@ -13,17 +13,18 @@ body {
 }
 
 /*Navigatie*/
+
 nav {
     position: fixed;
     bottom: 0;
     left: 0;
     width: 100%;
 }
-ul {
+nav ul {
     list-style-type: none;
     display: flex;
     justify-content: space-evenly;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(41, 41, 41);
     /*border-top: solid rgb(94, 94, 94) 4px;*/
 }
 nav li {
@@ -42,6 +43,7 @@ nav li p {
     font-family: 'Lucida Sans';
     font-weight: bold;
 }
+
 /*Einde Navigatie*/
 
 h1 {
@@ -60,7 +62,10 @@ main {
     background-image: linear-gradient(#e5b8dc,#b7a8f6);
     background-repeat: no-repeat;
 }
-
+.pagina4 {
+    background-image: linear-gradient(#e5b8dc,#edc9af);
+    background-repeat: no-repeat;
+}
 .topbar {
     display: flex;
     justify-content: center;
@@ -80,6 +85,7 @@ main {
 .mainlogo {
     height: 200px;
     width: auto;
+    padding-left: 3em;
 }
 
 .shopfront {
@@ -139,6 +145,7 @@ main {
 }
 
 /*Pagina 2*/
+
 .h2over {
     text-align: center;
     margin-top: 20px;
@@ -158,7 +165,7 @@ main {
 .p2over p {
     text-align: center;
     margin: 0px 50px;
-    color: white;
+    /*color: white;*/
 }
 
 .h3verpakking {
@@ -172,8 +179,82 @@ main {
 .verpakking p {
     text-align: center;
     margin: 20px 50px;
-    color: white;
+    /*color: white;*/
 }
 .verpakking {
+    padding-bottom: 3em;
+}
+
+/*Pagina 3*/
+
+.h2ervaring {
+    text-align: center;
+    margin: 18px 0px 5px;
+    font-size: 18px;
+    color: white;
+    text-shadow: black 1px 1px 1px;
+}
+
+.locatie {
+    display: flex;
+    padding: 20px;
+}
+.locatie img {
+    height: 140px;
+    width: auto;
+    border-radius: 10px;
+}
+.locatie p {
+    margin-right: 10px;
+}
+.burger, .kip {
+    margin: 30px 0px;
+}
+.burger p, .kip p {
+    margin: 20px 10px;
+}
+.burger img {
+    height: 140px;
+    width: auto;
+    border-radius: 10px;
+    float: left;
+    margin: 10px 10px;
+}
+
+.kip img {
+    height: 140px;
+    width: auto;
+    float: right;
+    border-radius: 10px;
+    margin: 10px 10px;
+}
+.mening {
+    text-align: center;
+    margin: 10px 20px 40px;
+    padding-bottom: 40px;
+}
+
+/*Pagina 4*/
+.adam {
+    display: flex;
+    justify-content: center;
+}
+.adam img{
+    height: 200px;
+    width: auto;
+    margin: 20px 20px;
+    border-radius: 20px;
+}
+.amsterdam {
+    text-align: center;
+    margin: 10px 10px;
+}
+
+.amsterdam ul {
+    list-style-type: none;
+}
+.overig {
+    text-align: center;
+    margin: 10px 10px 5em;
     padding-bottom: 5em;
 }
