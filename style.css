@@ -4,9 +4,45 @@
     box-sizing: border-box;
 }
 
+.italic {
+    font-style: italic;
+}
+
 body {
     font-family: sans-serif;
 }
+
+/*Navigatie*/
+nav {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    background-image: linear-gradient(to right, rgb(255, 124, 240),rgb(255, 169, 222));
+    border-top: solid rgb(30, 30, 30) 4px;
+}
+nav li {
+    width: 100%;
+    text-align: center;
+    padding-top: 4px;
+}
+nav li img {
+    height: 40px;
+    width: auto;
+}
+nav li p {
+    color: rgb(0, 0, 0);
+    font-size: 10px;
+    margin: 5px 0px 10px;
+    font-family: 'Lucida Sans';
+    font-weight: bold;
+}
+/*Einde Navigatie*/
 
 h1 {
     text-align: center;
@@ -47,7 +83,7 @@ main {
 }
 
 .shopfront {
-    height: 280px;
+    height: 260px;
     width: auto;
     margin-bottom: 20px;
     border-radius: 20px;
@@ -55,12 +91,18 @@ main {
 .shopfrontdiv {
     display: flex;
     justify-content: center;
+    border-bottom: solid #b7a8f6 5px;
+    margin: 0px 20px;
 }
 
 .pijlomlaag {
     height: 50px;
     width: auto;
     margin: 20px 0px 40px;
+}
+.pijlomlaagdiv {
+    display: flex;
+    justify-content: center;
 }
 
 .lijndiv {
@@ -75,6 +117,23 @@ main {
 .beschrijving h2 {
     margin: 10px;
 }
-.italic {
-    font-style: italic;
+
+.socialmedia {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px 0px 7px;
+}
+.mediaicon {
+    height: 30px;
+    width: auto;
+}
+.medialinks {
+    display: flex;
+    justify-content: space-evenly;
+}
+.medialinks p {
+    font-size: 10px;
+    color: white;
+    font-family: 'Lucida Sans';
+    margin-bottom: 100px;
 }
