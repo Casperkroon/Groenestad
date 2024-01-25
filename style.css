@@ -93,7 +93,14 @@ main {
 .overlogo {
     height: 120px;
     width: auto;
-    margin: 20px 0px -10px;
+    margin: 10px 0px -10px;
+    padding: 5px 10px 0px;
+}
+.ervaringlogo {
+    height: 100px;
+    width: auto;
+    scale: 80%;
+    margin: 10px 0px -10px;
     padding: 5px 10px 0px;
 }
 .shopfront {
@@ -130,6 +137,7 @@ main {
 
 .beschrijving h2 {
     margin: 10px;
+    font-size: 20px;
 }
 
 .socialmedia {
@@ -159,6 +167,7 @@ main {
     margin: 20px 0px 20px;
     color: white;
     text-shadow: black 1px 1px 1px;
+    font-size: 26px;
 }
 .duurzaamdiv {
     display: flex;
@@ -174,12 +183,13 @@ main {
     text-align: center;
     margin: 0px 50px;
     /*color: white;*/
+    font-size: 15px;
 }
 
 .h3verpakking {
     text-align: center;
     margin-top: 20px;
-    font-size: 20px;
+    font-size: 24px;
     color: white;
     text-shadow: black 1px 1px 1px;
 }
@@ -187,6 +197,7 @@ main {
 .verpakking p {
     text-align: center;
     margin: 20px 50px;
+    font-size: 15px;
     /*color: white;*/
 }
 .verpakking {
@@ -198,7 +209,7 @@ main {
 .h2ervaring {
     text-align: center;
     margin: 18px 0px 5px;
-    font-size: 18px;
+    font-size: 26px;
     color: white;
     text-shadow: black 1px 1px 1px;
 }
@@ -211,15 +222,18 @@ main {
     height: 140px;
     width: auto;
     border-radius: 10px;
+    border: solid white 3px;
 }
 .locatie p {
     margin-right: 10px;
+    font-size: 15px;
 }
 .burger, .kip {
     margin: 30px 0px;
 }
 .burger p, .kip p {
     margin: 20px 10px;
+    font-size: 15px;
 }
 .burger img {
     height: 140px;
@@ -227,6 +241,7 @@ main {
     border-radius: 10px;
     float: left;
     margin: 10px 10px;
+    border: solid white 3px;
 }
 
 .kip img {
@@ -235,29 +250,40 @@ main {
     float: right;
     border-radius: 10px;
     margin: 10px 10px;
+    border: solid white 3px;
 }
 .mening {
     text-align: center;
     margin: 10px 20px 40px;
     padding-bottom: 40px;
 }
+.mening p {
+    padding: 5px 0px 10px;
+    font-size: 15px;
+}
 
 /*Pagina 4*/
-.adam {
+.adam, .adam button{
     display: flex;
     justify-content: center;
+    margin: 15px 0px;
+    border-radius: 20px;
 }
 .adam img{
-    height: 200px;
+    height: 180px;
     width: auto;
-    margin: 20px 20px;
     border-radius: 20px;
 }
 .amsterdam {
     text-align: center;
     margin: 10px 10px;
 }
-
+.amsterdam h3, .overig h3 {
+    font-size: 25px;
+    color: white;
+    text-shadow: black 1px 1px 1px;
+    margin-bottom: 5px;
+}
 .amsterdam ul {
     list-style-type: none;
 }
@@ -265,4 +291,10 @@ main {
     text-align: center;
     margin: 10px 10px 5em;
     padding-bottom: 5em;
+}
+.overig h3 {
+    font-size: 20px;
+}
+.overig p, .amsterdam li {
+    font-size: 15px;
 }
